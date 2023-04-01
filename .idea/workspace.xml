@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6c9f1b7-bc17-4023-a03c-14a18608685d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/User/Opponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Util/OpponentUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/uruom.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/uruom.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/handler/MenuHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handler/MenuHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/view/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/view/MenuView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Document/school/2/threadtest",
+    "last_opened_file_path": "C:/Document/school/2/webfoundation",
     "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "61bfee279f0e534bdc1ffbc6700e322e"
   }
@@ -125,7 +119,7 @@
       <workItem from="1680190441040" duration="1249000" />
       <workItem from="1680228561026" duration="16804000" />
       <workItem from="1680268359212" duration="2358000" />
-      <workItem from="1680316575122" duration="8838000" />
+      <workItem from="1680316575122" duration="10245000" />
     </task>
     <servers />
   </component>
