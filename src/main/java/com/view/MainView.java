@@ -6,6 +6,7 @@ import com.Util.DimensionUtil;
 import com.Util.OpponentUtil;
 import com.Util.PlayerUtil;
 import com.handler.MainViewHandler;
+import com.message.MessageStart;
 import org.apache.log4j.Logger;
 
 import javax.swing.*;
@@ -132,11 +133,13 @@ public class MainView extends JFrame {
         contentPane.add(centerPanel,BorderLayout.CENTER);
 
 
-        Opponent opponent = new Opponent(this);
+//        Opponent opponent = new Opponent(this);
+        MessageStart messageStart = new MessageStart();
         PlayerUtil.closeThread = false;
-        thread = new Thread(()->opponent.playChess());
-        thread.start();
-//
+//        thread = new Thread(()->opponent.playChess());
+//        thread = new Thread(()->messageStart.startMessage(this));
+//        thread.start();
+        new Thread(()-> new MessageStart().startMessage(this)).start();
 
 //        for(int i=0;i<20;i++){
 //

@@ -30,6 +30,7 @@ public class MainViewHandler implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if(PlayerUtil.playerChoose!=PlayerUtil.nowColor) return;
+        logger.info("choose:"+PlayerUtil.playerChoose+" color:"+PlayerUtil.nowColor);
         JButton jButton = (JButton) e.getSource();
 //        URL imgUrlBlack = LoginView.class.getClassLoader().getResource("blackStone.gif");
 //        URL imgUrlWhite = LoginView.class.getClassLoader().getResource("whiteStone.gif");
@@ -57,9 +58,7 @@ public class MainViewHandler implements ActionListener {
             return ;
         }
         jButton.setIcon(PlayerUtil.chooseImage(player,opponent));
-        if(PlayerUtil.playerChoose==-1){
-            PlayerUtil.playerChoose=1;
-        }
+
         if(PlayerUtil.isWin()){
             PlayerUtil.clean();
             JOptionPane.showMessageDialog(mainView,"Victory！");
