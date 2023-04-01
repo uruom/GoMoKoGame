@@ -45,6 +45,8 @@ public class MessageReceive implements Runnable{
             if(PlayerUtil.closeThread){
                 break;
             }
+//            logger.info("Threadclose:"+ PlayerUtil.closeThread);
+
 
             try {
                 byte[] container = new byte[1024];
@@ -52,6 +54,7 @@ public class MessageReceive implements Runnable{
                 DatagramPacket packet = new DatagramPacket(container,0,container.length);
 //            断开链接
                 socket.receive(packet);//阻塞式接收包裹
+//                这个地方必须等对方发来消息后才能够结束，换句话说，如果是黑棋赢的话，直接开始会报错端口占用
                 byte[] data = packet.getData();
                 String receiveData = new String(data, 0, data.length);
 

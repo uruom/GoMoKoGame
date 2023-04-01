@@ -1,5 +1,8 @@
 package com.message;
 
+import com.Util.PlayerUtil;
+import org.apache.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,8 +12,14 @@ import java.net.InetSocketAddress;
 import java.net.SocketException;
 
 public class MessageSend implements Runnable{
+    public static Logger logger = Logger.getLogger(MessageSend.class);
+
     DatagramSocket socket = null;
     BufferedReader reader = null;
+
+
+
+    String data = null;
 
     private int fromPort;
     private String toIp;
@@ -33,23 +42,19 @@ public class MessageSend implements Runnable{
 
 //        准备数据：从控制台读取System.in
 
-        while(true){
-            String data = null;
-            try {
-                data = reader.readLine();
-                byte[] datas = data.getBytes();
+        if(PlayerUtil.closeThread){
+            logger.info("sendClose!");
+            socket.close();
+            return ;
+        }
+        try {
+                byte[] datas = Message.data.getBytes();
                 DatagramPacket packet = new DatagramPacket(datas,0,datas.length,new InetSocketAddress(this.toIp,this.toPort));
                 socket.send(packet);
-                if (data.equals("bye")) {
-                    break;
-                }
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-        }
-
-
 //        System.out.println("Success send");
-        socket.close();
     }
+
 }

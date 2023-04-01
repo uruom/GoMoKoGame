@@ -33,7 +33,7 @@ public class MainView extends JFrame {
 
     JPanel centerPanel = new JPanel(springLayout);
 
-    Thread thread;
+    public Thread thread;
 
     public JButton[][] getjBoard() {
         return jBoard;
@@ -134,9 +134,10 @@ public class MainView extends JFrame {
 
 
 //        Opponent opponent = new Opponent(this);
-        MessageStart messageStart = new MessageStart();
         PlayerUtil.closeThread = false;
-//        thread = new Thread(()->opponent.playChess());
+//        MessageStart.startMessage(this);
+
+        thread = MessageStart.sendMessage();
 //        thread = new Thread(()->messageStart.startMessage(this));
 //        thread.start();
         new Thread(()-> new MessageStart().startMessage(this)).start();

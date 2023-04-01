@@ -7,4 +7,8 @@ public class MessageStart {
 //        new Thread(new MessageSend(7237,"localhost",9999)).start();
         new Thread(new MessageReceive(8888,"老师",mainView)).start();
     }
+
+    public static Thread sendMessage(){
+        return new Thread(new MessageSend(7237,"localhost",9999));
+    }
 }

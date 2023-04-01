@@ -3,6 +3,7 @@ package com.handler;
 import com.User.Player;
 import com.Util.MathUtil;
 import com.Util.PlayerUtil;
+import com.message.Message;
 import com.service.impl.AdminServiceImpl;
 import com.view.LoginView;
 import com.view.MainView;
@@ -57,6 +58,11 @@ public class MainViewHandler implements ActionListener {
         if(PlayerUtil.isCovered(row,col)){
             return ;
         }
+        if(PlayerUtil.nowColor==-1){
+            Message.setData(row,col);
+//            不能多次启动start，需要用run
+            mainView.thread.run();
+        }
         jButton.setIcon(PlayerUtil.chooseImage(player,opponent));
 
         if(PlayerUtil.isWin()){
@@ -64,6 +70,8 @@ public class MainViewHandler implements ActionListener {
             JOptionPane.showMessageDialog(mainView,"Victory！");
             new MenuView(player,opponent);
             mainView.dispose();
+//            这个run是为了终结发送程序，socket close
+            mainView.thread.run();
         }
 
 
