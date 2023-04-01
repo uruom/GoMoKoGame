@@ -11,6 +11,10 @@ public class PlayerUtil {
     public static Logger logger = Logger.getLogger(PlayerUtil.class);
     public static int nowColor = -1;
     public static boolean isFinish = false;
+
+    public static boolean closeThread = false;
+
+    public static int playerChoose=-1;
     public static ImageIcon chooseImage (Player player1, Player player2){
         if(nowColor==-1){
             nowColor=1;
@@ -20,7 +24,7 @@ public class PlayerUtil {
             return player2.color;
         }
     }
-    private static int[][] board= new int[20][20];
+    public static int[][] board= new int[20][20];
     public static boolean isCovered(int row,int col){
         if(board[row][col]!=0){
             return true;
@@ -97,10 +101,12 @@ public class PlayerUtil {
     public static void clean(){
         nowColor = -1;
         isFinish = false;
+        playerChoose = -1;
         for(int i=0;i<20;i++){
             for(int j=0;j<20;j++){
                 board[i][j]=0;
             }
         }
+        closeThread = true;
     }
 }

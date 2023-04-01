@@ -1,6 +1,7 @@
 package com.view;
 
 import com.User.Player;
+import com.Util.PlayerUtil;
 import com.handler.LoginHandler;
 import com.handler.MainViewHandler;
 import com.handler.MenuHandler;
@@ -12,6 +13,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.awt.peer.MenuPeer;
 import java.net.URL;
 
 public class MenuView extends JFrame{
@@ -35,6 +37,7 @@ public class MenuView extends JFrame{
 //        ImageIcon
         setIconImage(new ImageIcon(imgUrl).getImage());
         Container contentPane = getContentPane();
+        PlayerUtil.closeThread = true;
 
         gameStartBtn.setFont(new Font("华文行楷",Font.PLAIN,40));
         gameStartBtn.setPreferredSize(new Dimension(300,50));

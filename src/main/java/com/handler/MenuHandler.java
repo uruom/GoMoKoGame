@@ -49,7 +49,7 @@ public class MenuHandler implements ActionListener {
         boolean flag = true;
         if (flag) {
 //            跳转到主界面并销毁登录界面
-            new MainView(new Player(user,2),new Player("oppenent",1));
+            new MainView(new Player(user,2),new Player("opponent",1));
             menuView.dispose();
         }else{
             JOptionPane.showMessageDialog(menuView,"用户不存在");

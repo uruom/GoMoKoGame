@@ -1,8 +1,12 @@
 package com.view;
 
+import com.User.Opponent;
 import com.User.Player;
 import com.Util.DimensionUtil;
+import com.Util.OpponentUtil;
+import com.Util.PlayerUtil;
 import com.handler.MainViewHandler;
+import org.apache.log4j.Logger;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,6 +14,9 @@ import java.net.URL;
 import java.util.Vector;
 
 public class MainView extends JFrame {
+
+    public static Logger logger = Logger.getLogger(MainView.class);
+
 
     JPanel northPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
     JButton addBtn = new JButton("增加");
@@ -24,7 +31,18 @@ public class MainView extends JFrame {
     JButton nextBtn = new JButton("下一页");
 
     JPanel centerPanel = new JPanel(springLayout);
-//    JLabel[][] jBoard = new JLabel[20][20];
+
+    Thread thread;
+
+    public JButton[][] getjBoard() {
+        return jBoard;
+    }
+
+    public void setjBoard(JButton[][] jBoard) {
+        this.jBoard = jBoard;
+    }
+
+    //    JLabel[][] jBoard = new JLabel[20][20];
     JButton[][] jBoard = new JButton[20][20];
     TrayIcon trayIcon;
 
@@ -114,61 +132,34 @@ public class MainView extends JFrame {
         contentPane.add(centerPanel,BorderLayout.CENTER);
 
 
+        Opponent opponent = new Opponent(this);
+        PlayerUtil.closeThread = false;
+        thread = new Thread(()->opponent.playChess());
+        thread.start();
 //
 
+//        for(int i=0;i<20;i++){
+//
+//            jBoard[i][0].doClick();
+//        }
 
     }
 
 
 
     //设置是否可见
-    private void showPreNext(int totalCount){
-        if(pageNow==1){
-            preBtn.setVisible(false);
-        }else{
-            preBtn.setVisible(true);
-        }
-        int pageCount = 0;
-        if(totalCount%pageSize==0){
-            pageCount =totalCount/pageSize;
-        }else{
-            pageCount = totalCount/pageSize+1;
-        }
-        if(pageNow==pageCount){
-            nextBtn.setVisible(false);
-        }else{
-            nextBtn.setVisible(true);
-        }
-    }
 
-    private void layoutSouth(Container contentPane) {
-        preBtn.addActionListener(mainViewHandler);
-        nextBtn.addActionListener(mainViewHandler);
-        southPanel.add(preBtn);
-        southPanel.add(nextBtn);
-        contentPane.add(southPanel,BorderLayout.SOUTH);
-    }
 
-    private void layoutNorth(Container contentPane) {
-//        增加时间监听
-        addBtn.addActionListener(mainViewHandler);
-        updateBtn.addActionListener(mainViewHandler);
-        searchBtn.addActionListener(mainViewHandler);
-        delBtn.addActionListener(mainViewHandler);
-        northPanel.add(addBtn);
-        northPanel.add(updateBtn);
-        northPanel.add(delBtn);
-        northPanel.add(searchTxt);
-        northPanel.add(searchBtn);
 
-        contentPane.add(northPanel,BorderLayout.NORTH);
-    }
 
     public static void main(String[] args){
         new MainView(new Player("uruom",1),new Player("oppenent",2));
     }
 
 
+    public void dispose(){
+        super.dispose();
+    }
 
 
 }

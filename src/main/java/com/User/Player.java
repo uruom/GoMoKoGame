@@ -5,7 +5,7 @@ import com.view.LoginView;
 import javax.swing.*;
 import java.net.URL;
 
-public class Player {
+public class Player{
     public String playerName;
     public int playerId;
 
