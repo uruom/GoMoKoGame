@@ -10,19 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6c9f1b7-bc17-4023-a03c-14a18608685d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/uruom.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/uruom.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Util/MathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Util/MathUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/handler/MenuHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handler/MenuHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/message/MessageSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageSend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/message/MessageStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/view/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/view/MenuView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +80,7 @@
       <recent name="com.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginView">
+  <component name="RunManager" selected="Application.MenuView">
     <configuration name="LoginView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.view.LoginView" />
       <module name="untitled" />
@@ -130,9 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoginView" />
         <item itemvalue="Application.MenuView" />
         <item itemvalue="Application.MainView" />
+        <item itemvalue="Application.LoginView" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +147,7 @@
       <workItem from="1680856480896" duration="12655000" />
       <workItem from="1681392461649" duration="382000" />
       <workItem from="1681440269358" duration="5992000" />
-      <workItem from="1681465940813" duration="4221000" />
+      <workItem from="1681465940813" duration="6423000" />
     </task>
     <servers />
   </component>

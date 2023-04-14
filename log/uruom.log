@@ -1299,3 +1299,186 @@
 [uruom][INFO][23-04-14][com.message.MessageSend]sendClose!
 [uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=17
 [uruom][INFO][23-04-14][com.message.MessageReceive]socket close!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=10
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=9
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=9
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=8
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=8
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=7
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=6
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=8
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=7
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=9
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=6
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=10
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=10
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=10
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=6
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=6
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=9
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=5
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.Util.PlayerUtil]finished
+[uruom][INFO][23-04-14][com.message.MessageSend]sendClose!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=6col=10
+[uruom][INFO][23-04-14][com.message.MessageReceive]socket close!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=11
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=11
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=10
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=10
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=9
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=11
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=6col=11
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=11
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=8
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.Util.PlayerUtil]finished
+[uruom][INFO][23-04-14][com.message.MessageSend]sendClose!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=7
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=17
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=16
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=16
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=12col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=16
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=12col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=17
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.Util.PlayerUtil]finished
+[uruom][INFO][23-04-14][com.message.MessageSend]sendClose!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=16
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=10col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=11
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=12col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=13col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=12col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=11col=16
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.Util.PlayerUtil]finished
+[uruom][INFO][23-04-14][com.message.MessageSend]sendClose!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=13col=16
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.message.MessageReceive]Thread init Success!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=7col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=6col=13
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=14
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=8col=15
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=9col=16
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=5col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:-1 color:-1
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=6col=12
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]choose:1 color:1
+[uruom][INFO][23-04-14][com.Util.PlayerUtil]finished
+[uruom][INFO][23-04-14][com.message.MessageSend]sendClose!
+[uruom][INFO][23-04-14][com.handler.MainViewHandler]row=4col=11
+[uruom][INFO][23-04-14][com.message.MessageReceive]socket close!

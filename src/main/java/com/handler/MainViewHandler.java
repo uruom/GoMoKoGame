@@ -63,6 +63,13 @@ public class MainViewHandler implements ActionListener {
             return ;
         }
         if(PlayerUtil.nowColor==-1){
+            mainView.getOpponentTurnLable().setVisible(true);
+            mainView.getPlayerTurnLable().setVisible(false);
+        }else{
+            mainView.getPlayerTurnLable().setVisible(true);
+            mainView.getOpponentTurnLable().setVisible(false);
+        }
+        if(PlayerUtil.nowColor==-1){
             Message.setData(row,col);
 //            不能多次启动start，需要用run
             mainView.thread.run();

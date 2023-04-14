@@ -110,7 +110,7 @@ public class PlayerUtil {
     }
 
     public static void clean(){
-        nowColor = -1;
+        nowColor = 1;
         isFinish = false;
         playerChoose = -1;
         for(int i=0;i<20;i++){

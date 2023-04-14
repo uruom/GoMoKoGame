@@ -24,7 +24,25 @@ public class MainView extends JFrame {
     JButton updateBtn = new JButton("修改");
     JButton delBtn = new JButton("删除");
     JTextField searchTxt = new JTextField(15);
+    JLabel playerTurnLable = new JLabel("你的回合",JLabel.LEFT);
 
+    public JLabel getPlayerTurnLable() {
+        return playerTurnLable;
+    }
+
+    public void setPlayerTurnLable(JLabel playerTurnLable) {
+        this.playerTurnLable = playerTurnLable;
+    }
+
+    public JLabel getOpponentTurnLable() {
+        return opponentTurnLable;
+    }
+
+    public void setOpponentTurnLable(JLabel opponentTurnLable) {
+        this.opponentTurnLable = opponentTurnLable;
+    }
+
+    JLabel opponentTurnLable = new JLabel("对方回合",JLabel.LEFT);
     JButton searchBtn = new JButton("查询");
     SpringLayout springLayout = new SpringLayout();
     JPanel southPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
@@ -94,6 +112,24 @@ public class MainView extends JFrame {
         URL imgUrl = LoginView.class.getClassLoader().getResource("background.gif");
         URL imgUrl2 = LoginView.class.getClassLoader().getResource("keqing.png");
         System.out.println(imgUrl);
+
+
+        centerPanel.add(playerTurnLable);
+        centerPanel.add(opponentTurnLable);
+
+        opponentTurnLable.setFont(new Font("华文行楷",Font.PLAIN,80));
+        opponentTurnLable.setPreferredSize(new Dimension(400,160));
+
+        springLayout.putConstraint(SpringLayout.WEST,opponentTurnLable,100,SpringLayout.WEST, centerPanel);
+        springLayout.putConstraint(SpringLayout.NORTH,opponentTurnLable,200,SpringLayout.NORTH, centerPanel);
+
+        playerTurnLable.setFont(new Font("华文行楷",Font.PLAIN,80));
+        playerTurnLable.setPreferredSize(new Dimension(400,160));
+
+        springLayout.putConstraint(SpringLayout.WEST,playerTurnLable,1300,SpringLayout.WEST, opponentTurnLable);
+        springLayout.putConstraint(SpringLayout.NORTH,playerTurnLable,600,SpringLayout.NORTH, opponentTurnLable);
+        opponentTurnLable.setVisible(true);
+        playerTurnLable.setVisible(false);
         if(imgUrl==null)
             throw new RuntimeException("error keqing");
         jBoard[0][0] = new JButton(new ImageIcon(imgUrl));
