@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="untitled:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6c9f1b7-bc17-4023-a03c-14a18608685d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/uruom.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/uruom.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Util/MathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Util/MathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/message/MessageReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageReceive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/handler/MenuHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handler/MenuHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/message/MessageSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageSend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/message/MessageStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/message/MessageStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/view/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/view/MenuView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +38,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/log/uruom.log" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/User/Opponent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/Util/DimensionUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/message/MessageReceive.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/message/MessageSend.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/message/MessageStart.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/view/MainView.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,6 +67,9 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Document/school/2/webfoundation",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "61bfee279f0e534bdc1ffbc6700e322e"
   }
 }]]></component>
@@ -64,7 +88,7 @@
       <recent name="com.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MenuView">
+  <component name="RunManager" selected="Application.LoginView">
     <configuration name="LoginView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.view.LoginView" />
       <module name="untitled" />
@@ -106,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MenuView" />
         <item itemvalue="Application.LoginView" />
+        <item itemvalue="Application.MenuView" />
         <item itemvalue="Application.MainView" />
       </list>
     </recent_temporary>
@@ -123,7 +147,15 @@
       <workItem from="1680190441040" duration="1249000" />
       <workItem from="1680228561026" duration="16804000" />
       <workItem from="1680268359212" duration="2358000" />
-      <workItem from="1680316575122" duration="16787000" />
+      <workItem from="1680316575122" duration="17081000" />
+      <workItem from="1680595241294" duration="269000" />
+      <workItem from="1680746119758" duration="1271000" />
+      <workItem from="1680768672166" duration="1236000" />
+      <workItem from="1680787445683" duration="989000" />
+      <workItem from="1680856480896" duration="12655000" />
+      <workItem from="1681392461649" duration="382000" />
+      <workItem from="1681440269358" duration="5992000" />
+      <workItem from="1681465940813" duration="4221000" />
     </task>
     <servers />
   </component>

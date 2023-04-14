@@ -30,6 +30,9 @@ public class MainViewHandler implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        if(PlayerUtil.firstStep){
+
+        }
         if(PlayerUtil.playerChoose!=PlayerUtil.nowColor) return;
         logger.info("choose:"+PlayerUtil.playerChoose+" color:"+PlayerUtil.nowColor);
         JButton jButton = (JButton) e.getSource();
@@ -56,6 +59,7 @@ public class MainViewHandler implements ActionListener {
         }
 
         if(PlayerUtil.isCovered(row,col)){
+
             return ;
         }
         if(PlayerUtil.nowColor==-1){
@@ -67,7 +71,8 @@ public class MainViewHandler implements ActionListener {
 
         if(PlayerUtil.isWin()){
             PlayerUtil.clean();
-            JOptionPane.showMessageDialog(mainView,"Victory！");
+
+            JOptionPane.showMessageDialog(mainView,PlayerUtil.result);
             new MenuView(player,opponent);
             mainView.dispose();
 //            这个run是为了终结发送程序，socket close

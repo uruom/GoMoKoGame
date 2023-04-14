@@ -1,6 +1,7 @@
 package com.handler;
 
 import com.User.Player;
+import com.Util.MathUtil;
 import com.entity.AdminDo;
 import com.service.AdminService;
 import com.service.impl.AdminServiceImpl;
@@ -39,7 +40,15 @@ public class MenuHandler implements ActionListener {
     private void login() {
         String user = "menuView.getUserTxt().getText()";
         String pwd = "menuView.getPwdFiled().getText()";
-        System.out.println(user+" "+pwd);
+        String toIp = menuView.getToIpFiled().getText();
+        int toPort = MathUtil.stringToInt(menuView.getToPortFiled().getText());
+        int fromPort = MathUtil.stringToInt(menuView.getFromPortFiled().getText());
+        player.setToIp(toIp);
+        player.setFromPort(fromPort);
+        player.setToPort(toPort);
+
+
+        System.out.println(toIp+" "+toPort+" "+fromPort);
 
         AdminService adminService = new AdminServiceImpl();
         AdminDo adminDo = new AdminDo();
@@ -49,7 +58,8 @@ public class MenuHandler implements ActionListener {
         boolean flag = true;
         if (flag) {
 //            跳转到主界面并销毁登录界面
-            new MainView(new Player(user,2),new Player("opponent",1));
+//            new MainView(new Player(user,2),new Player("opponent",1));
+            new MainView(player,opponent);
             menuView.dispose();
         }else{
             JOptionPane.showMessageDialog(menuView,"用户不存在");

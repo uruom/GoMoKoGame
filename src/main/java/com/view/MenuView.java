@@ -25,9 +25,34 @@ public class MenuView extends JFrame{
     JButton gameStartBtn = new JButton("新建游戏");
     JButton gameExitBtn = new JButton("退出游戏");
 
+    JLabel toIpLabel = new JLabel("对方IP");
+    JTextField toIpFiled = new JTextField();
+
+    JLabel toPortLabel = new JLabel("对方端口");
+    JTextField toPortFiled = new JTextField();
+
+    JLabel fromPortLabel = new JLabel("己方端口");
+
+    JTextField fromPortFiled = new JTextField();
+
+
+    public JTextField getToPortFiled() {
+        return toPortFiled;
+    }
+
+    public JTextField getFromPortFiled() {
+        return fromPortFiled;
+    }
+
+
 
     MenuHandler menuHandler;
-    public MenuView(Player player,Player oppenent){
+
+    public JTextField getToIpFiled() {
+        return toIpFiled;
+    }
+
+    public MenuView(Player player, Player oppenent){
         super("Menu View");
         menuHandler = new MenuHandler(this,player,oppenent);
         URL imgUrl = LoginView.class.getClassLoader().getResource("keqing.png");
@@ -38,6 +63,16 @@ public class MenuView extends JFrame{
         setIconImage(new ImageIcon(imgUrl).getImage());
         Container contentPane = getContentPane();
         PlayerUtil.closeThread = true;
+
+        Font centerFont = new Font("楷体",Font.PLAIN,20);
+        toIpLabel.setFont(centerFont);
+        toIpFiled.setPreferredSize(new Dimension(200,30));
+
+        fromPortLabel.setFont(centerFont);
+        fromPortFiled.setPreferredSize(new Dimension(200,30));
+
+        toPortLabel.setFont(centerFont);
+        toPortFiled.setPreferredSize(new Dimension(200,30));
 
         gameStartBtn.setFont(new Font("华文行楷",Font.PLAIN,40));
         gameStartBtn.setPreferredSize(new Dimension(300,50));
@@ -55,8 +90,32 @@ public class MenuView extends JFrame{
         springLayout.putConstraint(SpringLayout.WEST,gameStartBtn,0,SpringLayout.WEST, gameExitBtn);
         springLayout.putConstraint(SpringLayout.SOUTH,gameStartBtn,-200,SpringLayout.NORTH, gameExitBtn);
 
+        springLayout.putConstraint(SpringLayout.WEST,toIpLabel,0,SpringLayout.WEST, gameExitBtn);
+        springLayout.putConstraint(SpringLayout.SOUTH,toIpLabel,50,SpringLayout.SOUTH, gameStartBtn);
 
+        springLayout.putConstraint(SpringLayout.WEST,toIpFiled,20,SpringLayout.EAST, toIpLabel);
+        springLayout.putConstraint(SpringLayout.SOUTH,toIpFiled,0,SpringLayout.SOUTH, toIpLabel);
 
+        springLayout.putConstraint(SpringLayout.WEST,fromPortLabel,0,SpringLayout.WEST, toIpLabel);
+        springLayout.putConstraint(SpringLayout.SOUTH,fromPortLabel,50,SpringLayout.SOUTH, toIpLabel);
+
+        springLayout.putConstraint(SpringLayout.WEST,fromPortFiled,0,SpringLayout.WEST, toIpFiled);
+        springLayout.putConstraint(SpringLayout.SOUTH,fromPortFiled,0,SpringLayout.SOUTH, fromPortLabel);
+
+        springLayout.putConstraint(SpringLayout.WEST,toPortLabel,0,SpringLayout.WEST, fromPortLabel);
+        springLayout.putConstraint(SpringLayout.SOUTH,toPortLabel,50,SpringLayout.SOUTH, fromPortLabel);
+
+        springLayout.putConstraint(SpringLayout.WEST,toPortFiled,0,SpringLayout.WEST, fromPortFiled);
+        springLayout.putConstraint(SpringLayout.SOUTH,toPortFiled,0,SpringLayout.SOUTH, toPortLabel);
+
+        centerPanel.add(toIpFiled);
+        centerPanel.add(toIpLabel);
+
+        centerPanel.add(fromPortFiled);
+        centerPanel.add(fromPortLabel);
+
+        centerPanel.add(toPortFiled);
+        centerPanel.add(toPortLabel);
 
         centerPanel.add(gameStartBtn);
         centerPanel.add(gameExitBtn);

@@ -52,6 +52,11 @@ public class MainView extends JFrame {
     private int pageSize = 10;//一页10条
     MainViewHandler mainViewHandler;
     Player player;
+
+    public Player getPlayer() {
+        return player;
+    }
+
     Player opponent;
     public MainView(Player player,Player opponent){
         super("MainView");
@@ -137,10 +142,10 @@ public class MainView extends JFrame {
         PlayerUtil.closeThread = false;
 //        MessageStart.startMessage(this);
 
-        thread = MessageStart.sendMessage();
+        thread = MessageStart.sendMessage(this);
 //        thread = new Thread(()->messageStart.startMessage(this));
 //        thread.start();
-        new Thread(()-> new MessageStart().startMessage(this)).start();
+        new Thread(()-> new MessageStart().startMessage(this,9999,"uruom")).start();
 
 //        for(int i=0;i<20;i++){
 //

@@ -15,6 +15,34 @@ public class Player{
         return color;
     }
 
+    public int fromPort;
+    public int toPort;
+    public String toIp;
+
+    public int getFromPort() {
+        return fromPort;
+    }
+
+    public void setFromPort(int fromPort) {
+        this.fromPort = fromPort;
+    }
+
+    public int getToPort() {
+        return toPort;
+    }
+
+    public void setToPort(int toPort) {
+        this.toPort = toPort;
+    }
+
+    public String getToIp() {
+        return toIp;
+    }
+
+    public void setToIp(String toIp) {
+        this.toIp = toIp;
+    }
+
     public void setColor(String imgName) {
         URL imgUrl = LoginView.class.getClassLoader().getResource(imgName);
         this.color = new ImageIcon(imgUrl);
@@ -26,6 +54,13 @@ public class Player{
     public Player(String playerName, int playerId) {
         this.playerName = playerName;
         this.playerId = playerId;
+    }
+    public Player(String playerName, int playerId,int fromPort,int toPort,String toIp) {
+        this.playerName = playerName;
+        this.playerId = playerId;
+        this.fromPort = fromPort;
+        this.toPort = toPort;
+        this.toIp = toIp;
     }
 
     public String getPlayerName() {

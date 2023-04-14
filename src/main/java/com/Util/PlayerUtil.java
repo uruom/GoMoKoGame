@@ -9,7 +9,11 @@ import java.net.URL;
 
 public class PlayerUtil {
     public static Logger logger = Logger.getLogger(PlayerUtil.class);
-    public static int nowColor = -1;
+    public static int nowColor = 1;
+
+    public static String result;
+
+    public static boolean firstStep;
     public static boolean isFinish = false;
 
     public static boolean closeThread = false;
@@ -34,6 +38,13 @@ public class PlayerUtil {
         if (isColFinished(row, col)) isFinish = true;
         if (isLeftOnFinished(row, col)) isFinish = true;
         if(isRightOnFinished(row,col)) isFinish = true;
+        if(isFinish){
+            if(nowColor==-1){
+                result = "Victory!";
+            }else{
+                result = "Defeat!";
+            }
+        }
         return false;
 
     }
@@ -48,7 +59,7 @@ public class PlayerUtil {
             if(board[i][col]==nowColor) tempNum++;
             else break;
         }
-        if(tempNum>=5) return true;
+        if(tempNum>=5) return  true;
         return false;
     }
     private static boolean isColFinished(int row, int col) {

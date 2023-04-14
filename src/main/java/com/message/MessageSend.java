@@ -21,12 +21,12 @@ public class MessageSend implements Runnable{
 
     String data = null;
 
-    private int fromPort;
+//    private int fromPort;
     private String toIp;
     private int toPort;
 
     public MessageSend(int fromPort, String toIp, int toPort) {
-        this.fromPort = fromPort;
+//        this.fromPort = fromPort;
         this.toIp = toIp;
         this.toPort = toPort;
         try {
