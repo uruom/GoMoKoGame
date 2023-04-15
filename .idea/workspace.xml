@@ -11,10 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6c9f1b7-bc17-4023-a03c-14a18608685d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/uruom.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/uruom.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Util/PlayerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/handler/MainViewHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/untitled_jar/untitled.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/untitled_jar/untitled.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Document/school/2/webfoundation",
+    "last_opened_file_path": "C:/Document/school/senior_three/second/fenbu",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
@@ -147,7 +144,7 @@
       <workItem from="1680856480896" duration="12655000" />
       <workItem from="1681392461649" duration="382000" />
       <workItem from="1681440269358" duration="5992000" />
-      <workItem from="1681465940813" duration="6423000" />
+      <workItem from="1681465940813" duration="7484000" />
     </task>
     <servers />
   </component>
